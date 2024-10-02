@@ -11,7 +11,9 @@
         "<TODO> Done",
         "<REPORT>",
         "<REPORT> Done",
-        "shihtl>"
+        "shihtl>",
+        "## START CODE HERE",
+        "## END CODE HERE",
     ],
     "todo-tree.highlights.customHighlight": {
         "<TODO>": {
@@ -37,6 +39,18 @@
             "type": "text-and-comment",
             "background": "#7a3d94",
             "foreground": "#ffffff"
-        }
+        },
+        "## START CODE HERE": {
+            "icon": "star",
+            "type": "text-and-comment",
+            "background": "#e6637e",
+            "foreground": "#ffffffd0"
+        },
+        "## END CODE HERE": {
+            "icon": "star",
+            "type": "text-and-comment",
+            "background": "#e6637e",
+            "foreground": "#ffffffd0"
+        },
     },
 }
