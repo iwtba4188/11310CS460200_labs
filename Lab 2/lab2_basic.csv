@@ -3,5 +3,5 @@ Id,Ans
 1,0.0385
 2,"[np.float64(0.2146), np.float64(99.5), 'glucose_apache']"
 3,7
-4,"['height', 'glucose_apache', 184, 99]"
+4,"['height', 'glucose_apache', np.float64(184.15), np.float64(99.5)]"
 5,0.4444
