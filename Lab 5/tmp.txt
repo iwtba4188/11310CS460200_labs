@@ -1,0 +1,218 @@
+epoch:  0
+Cost after iteration 0: 0.785387
+validation------
+Accuracy: 0.4083333333333333
+epoch:  1
+Cost after iteration 1: 1.018594
+validation------
+Accuracy: 0.5583333333333333
+epoch:  2
+Cost after iteration 2: 0.793502
+validation------
+Accuracy: 0.55
+epoch:  3
+Cost after iteration 3: 0.652875
+validation------
+Accuracy: 0.5249999999999999
+epoch:  4
+Cost after iteration 4: 0.661350
+validation------
+Accuracy: 0.525
+epoch:  5
+Cost after iteration 5: 0.778221
+validation------
+Accuracy: 0.6166666666666667
+epoch:  6
+Cost after iteration 6: 0.636416
+validation------
+Accuracy: 0.5916666666666667
+epoch:  7
+Cost after iteration 7: 0.742151
+validation------
+Accuracy: 0.625
+epoch:  8
+Cost after iteration 8: 0.680938
+validation------
+Accuracy: 0.6166666666666667
+epoch:  9
+Cost after iteration 9: 0.643151
+validation------
+Accuracy: 0.675
+epoch:  10
+Cost after iteration 10: 0.662124
+validation------
+Accuracy: 0.6583333333333333
+epoch:  11
+Cost after iteration 11: 0.636708
+validation------
+Accuracy: 0.6749999999999999
+epoch:  12
+Cost after iteration 12: 0.567819
+validation------
+Accuracy: 0.6666666666666666
+epoch:  13
+Cost after iteration 13: 0.582163
+validation------
+Accuracy: 0.7
+epoch:  14
+Cost after iteration 14: 0.678837
+validation------
+Accuracy: 0.7416666666666667
+epoch:  15
+Cost after iteration 15: 0.647620
+validation------
+Accuracy: 0.6916666666666667
+epoch:  16
+Cost after iteration 16: 0.631505
+validation------
+Accuracy: 0.7
+epoch:  17
+Cost after iteration 17: 0.530811
+validation------
+Accuracy: 0.6916666666666667
+epoch:  18
+Cost after iteration 18: 0.517872
+validation------
+Accuracy: 0.7583333333333333
+epoch:  19
+Cost after iteration 19: 0.540420
+validation------
+Accuracy: 0.7416666666666667
+
+
+
+
+
+learning_rate = 1e-2
+num_iterations = 20
+batch_size = 8
+
+PARAMS = f"{learning_rate}_{batch_size}_gen6"
+
+costs = []  # keep track of cost
+
+
+# build the model
+model = Model()
+# Block 1
+model.add(Conv(filter_size=5, input_channel=1, output_channel=16, pad=2, stride=1))
+model.add(Activation("relu"))
+model.add(MaxPool(pool_size=5, stride=2))
+model.add(MaxPool(pool_size=5, stride=2))
+model.add(Dropout(0.1))
+
+# model.add(Conv(filter_size=5, input_channel=16, output_channel=16, pad=2, stride=1))
+# model.add(Activation("relu"))
+# model.add(MaxPool(pool_size=3, stride=2))
+# model.add(Dropout(0.1))
+# model.add(Conv(filter_size=3, input_channel=8, output_channel=8, pad=1, stride=1))
+# model.add(Activation("relu"))
+# model.add(MaxPool(pool_size=2, stride=2))
+
+# Block 6
+model.add(Flatten())
+model.add(Dense(400, 128))
+model.add(Dropout(0.1))
+model.add(Dense(128, 1))
+model.add(Activation("sigmoid"))
+
+
+100%|██████████| 60/60 [03:57<00:00,  3.96s/it]
+Cost after iteration 0: 0.473142
+validation------
+Accuracy: 0.6083333333333333
+epoch:  1
+100%|██████████| 60/60 [04:05<00:00,  4.10s/it]
+Cost after iteration 1: 0.530498
+validation------
+Accuracy: 0.6083333333333333
+epoch:  2
+100%|██████████| 60/60 [04:04<00:00,  4.07s/it]
+Cost after iteration 2: 0.334347
+validation------
+Accuracy: 0.7666666666666666
+epoch:  3
+100%|██████████| 60/60 [04:14<00:00,  4.25s/it]
+Cost after iteration 3: 0.320935
+validation------
+Accuracy: 0.8333333333333333
+epoch:  4
+100%|██████████| 60/60 [03:26<00:00,  3.43s/it]
+Cost after iteration 4: 0.369036
+validation------
+Accuracy: 0.8333333333333333
+epoch:  5
+100%|██████████| 60/60 [04:03<00:00,  4.05s/it]
+Cost after iteration 5: 0.776706
+validation------
+Accuracy: 0.7999999999999999
+epoch:  6
+100%|██████████| 60/60 [04:13<00:00,  4.22s/it]
+Cost after iteration 6: 0.141994
+validation------
+Accuracy: 0.8666666666666666
+epoch:  7
+100%|██████████| 60/60 [03:54<00:00,  3.91s/it]
+Cost after iteration 7: 0.279812
+validation------
+Accuracy: 0.8499999999999999
+epoch:  8
+100%|██████████| 60/60 [03:47<00:00,  3.79s/it]
+Cost after iteration 8: 0.215990
+validation------
+Accuracy: 0.8499999999999999
+epoch:  9
+100%|██████████| 60/60 [03:36<00:00,  3.61s/it]
+Cost after iteration 9: 0.374585
+validation------
+Accuracy: 0.8499999999999999
+epoch:  10
+100%|██████████| 60/60 [03:42<00:00,  3.71s/it]
+Cost after iteration 10: 0.542479
+validation------
+Accuracy: 0.7749999999999999
+epoch:  11
+100%|██████████| 60/60 [03:24<00:00,  3.42s/it]
+Cost after iteration 11: 0.335353
+validation------
+Accuracy: 0.8666666666666666
+epoch:  12
+100%|██████████| 60/60 [03:24<00:00,  3.40s/it]
+Cost after iteration 12: 0.323435
+validation------
+Accuracy: 0.8583333333333332
+epoch:  13
+100%|██████████| 60/60 [03:22<00:00,  3.37s/it]
+Cost after iteration 13: 0.270844
+validation------
+Accuracy: 0.8999999999999999
+epoch:  14
+100%|██████████| 60/60 [03:22<00:00,  3.38s/it]
+Cost after iteration 14: 0.413660
+validation------
+Accuracy: 0.8666666666666666
+epoch:  15
+100%|██████████| 60/60 [03:23<00:00,  3.39s/it]
+Cost after iteration 15: 0.199845
+validation------
+Accuracy: 0.8666666666666666
+epoch:  16
+100%|██████████| 60/60 [03:27<00:00,  3.46s/it]
+Cost after iteration 16: 0.463966
+validation------
+Accuracy: 0.8833333333333333
+epoch:  17
+100%|██████████| 60/60 [03:48<00:00,  3.81s/it]
+Cost after iteration 17: 0.284164
+validation------
+Accuracy: 0.8916666666666666
+epoch:  18
+100%|██████████| 60/60 [03:49<00:00,  3.83s/it]
+Cost after iteration 18: 0.651702
+validation------
+Accuracy: 0.8833333333333333
+epoch:  19
+100%|██████████| 60/60 [03:58<00:00,  3.97s/it]
+Cost after iteration 19: 0.318250
+validation------
+Accuracy: 0.8333333333333333

@@ -22,6 +22,7 @@ class Activation:
 
             # GRADED FUNCTION: sigmoid_forward
             ### START CODE HERE ###
+            Z.astype(np.float128)
             A = np.where(Z >= 0, 1 / (1 + np.exp(-Z)), np.exp(Z) / (1 + np.exp(Z)))
             self.cache = Z
             ### END CODE HERE ###
