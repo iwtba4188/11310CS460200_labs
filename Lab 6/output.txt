@@ -272,3 +272,366 @@ Epoch 49/50, Validation Loss: 0.44796524872339755
 Epoch 50/50: 100%|██████████| 195/195 [00:04<00:00, 39.19batch/s, loss=0.466]
 Epoch 50/50, Training Loss: 0.01458960386018451
 Epoch 50/50, Validation Loss: 0.4424628328707808
+
+
+==========Training phase 1==========
+Epoch 1/30:   0%|          | 0/45 [00:00<?, ?batch/s]Epoch 1/30: 100%|██████████| 45/45 [00:08<00:00,  5.35batch/s, loss=0.983]
+Epoch 1/30, Training Loss: 1.0044177566321508
+Epoch 1/30, Validation Loss: 0.9988640635310762
+Epoch 2/30: 100%|██████████| 45/45 [00:11<00:00,  4.08batch/s, loss=0.972]
+Epoch 2/30, Training Loss: 0.9932714770972153
+Epoch 2/30, Validation Loss: 0.9859555194891731
+Epoch 3/30: 100%|██████████| 45/45 [00:09<00:00,  4.92batch/s, loss=0.943]
+Epoch 3/30, Training Loss: 0.9630740873942891
+Epoch 3/30, Validation Loss: 0.9116349175715536
+Epoch 4/30: 100%|██████████| 45/45 [00:08<00:00,  5.49batch/s, loss=0.866]
+Epoch 4/30, Training Loss: 0.881420287051805
+Epoch 4/30, Validation Loss: 0.7155080338697153
+Epoch 5/30: 100%|██████████| 45/45 [00:07<00:00,  6.25batch/s, loss=0.775]
+Epoch 5/30, Training Loss: 0.7889546739398069
+Epoch 5/30, Validation Loss: 0.6188354045619262
+Epoch 6/30: 100%|██████████| 45/45 [00:07<00:00,  6.41batch/s, loss=0.581]
+Epoch 6/30, Training Loss: 0.5911504280135013
+Epoch 6/30, Validation Loss: 0.501924623848329
+Epoch 7/30: 100%|██████████| 45/45 [00:06<00:00,  6.45batch/s, loss=0.528]
+Epoch 7/30, Training Loss: 0.538265272931616
+Epoch 7/30, Validation Loss: 0.44935807217532314
+Epoch 8/30: 100%|██████████| 45/45 [00:07<00:00,  6.36batch/s, loss=0.474]
+Epoch 8/30, Training Loss: 0.4836527158614334
+Epoch 8/30, Validation Loss: 0.42715140119847267
+Epoch 9/30: 100%|██████████| 45/45 [00:07<00:00,  6.32batch/s, loss=0.433]
+Epoch 9/30, Training Loss: 0.4430209351454786
+Epoch 9/30, Validation Loss: 0.41834648660096674
+Epoch 10/30: 100%|██████████| 45/45 [00:07<00:00,  6.41batch/s, loss=0.421]
+Epoch 10/30, Training Loss: 0.430217209622036
+Epoch 10/30, Validation Loss: 0.412276757588712
+Epoch 11/30: 100%|██████████| 45/45 [00:06<00:00,  6.52batch/s, loss=0.41] 
+Epoch 11/30, Training Loss: 0.4193818882587657
+Epoch 11/30, Validation Loss: 0.4060047574085578
+Epoch 12/30: 100%|██████████| 45/45 [00:07<00:00,  6.03batch/s, loss=0.402]
+Epoch 12/30, Training Loss: 0.41097918902384334
+Epoch 12/30, Validation Loss: 0.4014674970621133
+Epoch 13/30: 100%|██████████| 45/45 [00:06<00:00,  6.47batch/s, loss=0.395]
+Epoch 13/30, Training Loss: 0.4044447115524664
+Epoch 13/30, Validation Loss: 0.3979193383992053
+Epoch 14/30: 100%|██████████| 45/45 [00:06<00:00,  6.55batch/s, loss=0.391]
+Epoch 14/30, Training Loss: 0.4000838866170418
+Epoch 14/30, Validation Loss: 0.39535702326259675
+Epoch 15/30: 100%|██████████| 45/45 [00:07<00:00,  6.38batch/s, loss=0.387]
+Epoch 15/30, Training Loss: 0.3960009170082002
+Epoch 15/30, Validation Loss: 0.39331006849805583
+Epoch 16/30: 100%|██████████| 45/45 [00:07<00:00,  6.34batch/s, loss=0.385]
+Epoch 16/30, Training Loss: 0.39389449158912015
+Epoch 16/30, Validation Loss: 0.39176462624019087
+Epoch 17/30: 100%|██████████| 45/45 [00:07<00:00,  6.42batch/s, loss=0.382]
+Epoch 17/30, Training Loss: 0.39062017899479284
+Epoch 17/30, Validation Loss: 0.39040788697313583
+Epoch 18/30: 100%|██████████| 45/45 [00:07<00:00,  6.40batch/s, loss=0.38] 
+Epoch 18/30, Training Loss: 0.38865731395779296
+Epoch 18/30, Validation Loss: 0.3885933328938076
+Epoch 19/30: 100%|██████████| 45/45 [00:06<00:00,  6.45batch/s, loss=0.377]
+Epoch 19/30, Training Loss: 0.38617542903769364
+Epoch 19/30, Validation Loss: 0.38762859698494695
+Epoch 20/30: 100%|██████████| 45/45 [00:07<00:00,  6.39batch/s, loss=0.375]
+Epoch 20/30, Training Loss: 0.38415940938874144
+Epoch 20/30, Validation Loss: 0.3855004668843252
+Epoch 21/30: 100%|██████████| 45/45 [00:06<00:00,  6.46batch/s, loss=0.374]
+Epoch 21/30, Training Loss: 0.3824736800121022
+Epoch 21/30, Validation Loss: 0.38382903913734245
+Epoch 22/30: 100%|██████████| 45/45 [00:06<00:00,  6.53batch/s, loss=0.371]
+Epoch 22/30, Training Loss: 0.3797198809527362
+Epoch 22/30, Validation Loss: 0.38217867481512113
+Epoch 23/30: 100%|██████████| 45/45 [00:06<00:00,  6.44batch/s, loss=0.368]
+Epoch 23/30, Training Loss: 0.37698713474330625
+Epoch 23/30, Validation Loss: 0.37974941660588973
+Epoch 24/30: 100%|██████████| 45/45 [00:07<00:00,  6.33batch/s, loss=0.366]
+Epoch 24/30, Training Loss: 0.37411816378956614
+Epoch 24/30, Validation Loss: 0.3782115526685874
+Epoch 25/30: 100%|██████████| 45/45 [00:06<00:00,  6.45batch/s, loss=0.364]
+Epoch 25/30, Training Loss: 0.3721115719084613
+Epoch 25/30, Validation Loss: 0.37654938192351783
+Epoch 26/30: 100%|██████████| 45/45 [00:06<00:00,  6.47batch/s, loss=0.361]
+Epoch 26/30, Training Loss: 0.369591445174064
+Epoch 26/30, Validation Loss: 0.3747864853264141
+Epoch 27/30: 100%|██████████| 45/45 [00:06<00:00,  6.49batch/s, loss=0.359]
+Epoch 27/30, Training Loss: 0.3672059520005129
+Epoch 27/30, Validation Loss: 0.3732642425475354
+Epoch 28/30: 100%|██████████| 45/45 [00:07<00:00,  6.38batch/s, loss=0.357]
+Epoch 28/30, Training Loss: 0.36504146430373563
+Epoch 28/30, Validation Loss: 0.37187967178000136
+Epoch 29/30: 100%|██████████| 45/45 [00:06<00:00,  6.52batch/s, loss=0.355]
+Epoch 29/30, Training Loss: 0.3628149636574775
+Epoch 29/30, Validation Loss: 0.3705162361982598
+Epoch 30/30: 100%|██████████| 45/45 [00:07<00:00,  6.36batch/s, loss=0.352]
+Epoch 30/30, Training Loss: 0.3606819695796984
+Epoch 30/30, Validation Loss: 0.36891973403251516
+==========Training phase 2==========
+Epoch 1/12: 100%|██████████| 91/91 [00:08<00:00, 11.25batch/s, loss=0.726]
+Epoch 1/12, Training Loss: 0.729622428489205
+Epoch 1/12, Validation Loss: 0.4375824471620615
+Epoch 2/12: 100%|██████████| 91/91 [00:08<00:00, 11.18batch/s, loss=0.406]
+Epoch 2/12, Training Loss: 0.41083650049599507
+Epoch 2/12, Validation Loss: 0.3828509540225617
+Epoch 3/12: 100%|██████████| 91/91 [00:08<00:00, 10.98batch/s, loss=0.37] 
+Epoch 3/12, Training Loss: 0.3746466056879453
+Epoch 3/12, Validation Loss: 0.3733569214079976
+Epoch 4/12: 100%|██████████| 91/91 [00:08<00:00, 11.28batch/s, loss=0.356]
+Epoch 4/12, Training Loss: 0.36046426731948444
+Epoch 4/12, Validation Loss: 0.3643740103954298
+Epoch 5/12: 100%|██████████| 91/91 [00:08<00:00, 10.98batch/s, loss=0.347]
+Epoch 5/12, Training Loss: 0.35115588735045156
+Epoch 5/12, Validation Loss: 0.35772407671579864
+Epoch 6/12: 100%|██████████| 91/91 [00:08<00:00, 11.32batch/s, loss=0.339]
+Epoch 6/12, Training Loss: 0.342885021893136
+Epoch 6/12, Validation Loss: 0.3517130550839625
+Epoch 7/12: 100%|██████████| 91/91 [00:08<00:00, 10.93batch/s, loss=0.332]
+Epoch 7/12, Training Loss: 0.3355693555755324
+Epoch 7/12, Validation Loss: 0.346021664950715
+Epoch 8/12: 100%|██████████| 91/91 [00:10<00:00,  8.81batch/s, loss=0.327]
+Epoch 8/12, Training Loss: 0.3314668650008701
+Epoch 8/12, Validation Loss: 0.34268004372505895
+Epoch 9/12: 100%|██████████| 91/91 [00:08<00:00, 10.40batch/s, loss=0.322]
+Epoch 9/12, Training Loss: 0.32569356103136765
+Epoch 9/12, Validation Loss: 0.3412999574737448
+Epoch 10/12: 100%|██████████| 91/91 [00:08<00:00, 10.69batch/s, loss=0.504]
+Epoch 10/12, Training Loss: 0.507086935148858
+Epoch 10/12, Validation Loss: 0.3688520327600935
+Epoch 11/12: 100%|██████████| 91/91 [00:09<00:00,  9.71batch/s, loss=0.343]
+Epoch 11/12, Training Loss: 0.3474886781507247
+Epoch 11/12, Validation Loss: 0.3545495320687333
+Epoch 12/12: 100%|██████████| 91/91 [00:08<00:00, 11.19batch/s, loss=0.332]
+Epoch 12/12, Training Loss: 0.33586439857330563
+Epoch 12/12, Validation Loss: 0.34627758664673886
+==========Training phase 3==========
+Epoch 1/13: 100%|██████████| 91/91 [00:08<00:00, 11.11batch/s, loss=0.315]
+Epoch 1/13, Training Loss: 0.3193748512125006
+Epoch 1/13, Validation Loss: 0.3397490857108522
+Epoch 2/13: 100%|██████████| 91/91 [00:08<00:00, 10.89batch/s, loss=0.31] 
+Epoch 2/13, Training Loss: 0.314088814330444
+Epoch 2/13, Validation Loss: 0.33875117480477934
+Epoch 3/13: 100%|██████████| 91/91 [00:08<00:00, 10.93batch/s, loss=0.306]
+Epoch 3/13, Training Loss: 0.30997846874450447
+Epoch 3/13, Validation Loss: 0.3361677916081061
+Epoch 4/13: 100%|██████████| 91/91 [00:08<00:00, 11.12batch/s, loss=0.302]
+Epoch 4/13, Training Loss: 0.30585381433521863
+Epoch 4/13, Validation Loss: 0.33586437422797777
+Epoch 5/13: 100%|██████████| 91/91 [00:08<00:00, 11.05batch/s, loss=0.298]
+Epoch 5/13, Training Loss: 0.30176110163986536
+Epoch 5/13, Validation Loss: 0.3358028404950067
+Epoch 6/13: 100%|██████████| 91/91 [00:08<00:00, 10.50batch/s, loss=0.293]
+Epoch 6/13, Training Loss: 0.296947258218046
+Epoch 6/13, Validation Loss: 0.3356739923564529
+Epoch 7/13: 100%|██████████| 91/91 [00:08<00:00, 11.23batch/s, loss=0.287]
+Epoch 7/13, Training Loss: 0.291561451881364
+Epoch 7/13, Validation Loss: 0.3200860719621772
+Epoch 8/13: 100%|██████████| 91/91 [00:08<00:00, 11.29batch/s, loss=0.28] 
+Epoch 8/13, Training Loss: 0.284424729825603
+Epoch 8/13, Validation Loss: 0.3022413053097203
+Epoch 9/13: 100%|██████████| 91/91 [00:08<00:00, 11.08batch/s, loss=0.271]
+Epoch 9/13, Training Loss: 0.2747352204426359
+Epoch 9/13, Validation Loss: 0.2913195814806403
+Epoch 10/13: 100%|██████████| 91/91 [00:08<00:00, 11.16batch/s, loss=0.26] 
+Epoch 10/13, Training Loss: 0.26280153020346736
+Epoch 10/13, Validation Loss: 0.28335072265684524
+Epoch 11/13: 100%|██████████| 91/91 [00:08<00:00, 11.18batch/s, loss=0.248]
+Epoch 11/13, Training Loss: 0.2501792342639877
+Epoch 11/13, Validation Loss: 0.27245389322176666
+Epoch 12/13: 100%|██████████| 91/91 [00:08<00:00, 10.91batch/s, loss=0.235]
+Epoch 12/13, Training Loss: 0.23690635790620504
+Epoch 12/13, Validation Loss: 0.2540229847203635
+Epoch 13/13: 100%|██████████| 91/91 [00:08<00:00, 11.29batch/s, loss=0.222]
+Epoch 13/13, Training Loss: 0.22469526602214634
+Epoch 13/13, Validation Loss: 0.2583446158143014
+==========Training phase 4==========
+Epoch 1/3: 100%|██████████| 183/183 [00:11<00:00, 15.98batch/s, loss=0.207]
+Epoch 1/3, Training Loss: 0.2074703770526631
+Epoch 1/3, Validation Loss: 0.22704538138964608
+Epoch 2/3: 100%|██████████| 183/183 [00:11<00:00, 16.03batch/s, loss=0.2]  
+Epoch 2/3, Training Loss: 0.2001852675955188
+Epoch 2/3, Validation Loss: 0.20832415556297842
+Epoch 3/3: 100%|██████████| 183/183 [00:11<00:00, 16.26batch/s, loss=0.186]
+Epoch 3/3, Training Loss: 0.1867237593630469
+Epoch 3/3, Validation Loss: 0.20258230070066655
+==========Training phase 5==========
+Epoch 1/10: 100%|██████████| 367/367 [00:16<00:00, 22.13batch/s, loss=0.187]
+Epoch 1/10, Training Loss: 0.18769636283493876
+Epoch 1/10, Validation Loss: 0.19886525727835505
+Epoch 2/10: 100%|██████████| 367/367 [00:16<00:00, 22.24batch/s, loss=0.306]
+Epoch 2/10, Training Loss: 0.3077572335176193
+Epoch 2/10, Validation Loss: 0.3697199307656106
+Epoch 3/10: 100%|██████████| 367/367 [00:22<00:00, 16.32batch/s, loss=0.333]
+Epoch 3/10, Training Loss: 0.33426002646254255
+Epoch 3/10, Validation Loss: 0.3297095812834457
+Epoch 4/10: 100%|██████████| 367/367 [00:15<00:00, 24.30batch/s, loss=0.297]
+Epoch 4/10, Training Loss: 0.2977695457855004
+Epoch 4/10, Validation Loss: 0.29942884322303553
+Epoch 5/10: 100%|██████████| 367/367 [00:14<00:00, 25.06batch/s, loss=0.283]
+Epoch 5/10, Training Loss: 0.28438810989608876
+Epoch 5/10, Validation Loss: 0.28550344606667566
+Epoch 6/10: 100%|██████████| 367/367 [00:14<00:00, 24.56batch/s, loss=0.272]
+Epoch 6/10, Training Loss: 0.273562391241747
+Epoch 6/10, Validation Loss: 0.2837430514352656
+Epoch 7/10: 100%|██████████| 367/367 [00:14<00:00, 24.86batch/s, loss=0.266]
+Epoch 7/10, Training Loss: 0.26696663008930716
+Epoch 7/10, Validation Loss: 0.32148494272146994
+Epoch 8/10: 100%|██████████| 367/367 [00:14<00:00, 24.76batch/s, loss=0.273]
+Epoch 8/10, Training Loss: 0.27521586608378507
+Epoch 8/10, Validation Loss: 0.2956596817739854
+Epoch 9/10: 100%|██████████| 367/367 [00:15<00:00, 24.27batch/s, loss=0.245]
+Epoch 9/10, Training Loss: 0.24711909934674778
+Epoch 9/10, Validation Loss: 0.2987481418729406
+Epoch 10/10: 100%|██████████| 367/367 [00:15<00:00, 24.44batch/s, loss=0.237]
+Epoch 10/10, Training Loss: 0.2381115160426103
+Epoch 10/10, Validation Loss: 0.23942303993706138
+==========Training phase 6==========
+Epoch 1/20: 100%|██████████| 367/367 [00:14<00:00, 24.86batch/s, loss=0.186]
+Epoch 1/20, Training Loss: 0.1866476511663742
+Epoch 1/20, Validation Loss: 0.2184053329079833
+Epoch 2/20: 100%|██████████| 367/367 [00:14<00:00, 24.88batch/s, loss=0.177]
+Epoch 2/20, Training Loss: 0.17852030770923702
+Epoch 2/20, Validation Loss: 0.21641795095876631
+Epoch 3/20: 100%|██████████| 367/367 [00:14<00:00, 25.14batch/s, loss=0.175]
+Epoch 3/20, Training Loss: 0.17605635760227734
+Epoch 3/20, Validation Loss: 0.2163564509959382
+Epoch 4/20: 100%|██████████| 367/367 [00:15<00:00, 23.91batch/s, loss=0.174]
+Epoch 4/20, Training Loss: 0.17500150296069678
+Epoch 4/20, Validation Loss: 0.21815825807954298
+Epoch 5/20: 100%|██████████| 367/367 [00:14<00:00, 24.56batch/s, loss=0.173]
+Epoch 5/20, Training Loss: 0.17464578076082177
+Epoch 5/20, Validation Loss: 0.2197220530562278
+Epoch 6/20: 100%|██████████| 367/367 [00:14<00:00, 24.86batch/s, loss=0.173]
+Epoch 6/20, Training Loss: 0.17413888050009044
+Epoch 6/20, Validation Loss: 0.22020392860679297
+Epoch 7/20: 100%|██████████| 367/367 [00:14<00:00, 25.00batch/s, loss=0.173]
+Epoch 7/20, Training Loss: 0.17428445203801204
+Epoch 7/20, Validation Loss: 0.22150825540191016
+Epoch 8/20: 100%|██████████| 367/367 [00:14<00:00, 24.97batch/s, loss=0.175]
+Epoch 8/20, Training Loss: 0.17623952524175182
+Epoch 8/20, Validation Loss: 0.2223248124844892
+Epoch 9/20: 100%|██████████| 367/367 [00:18<00:00, 19.39batch/s, loss=0.186]
+Epoch 9/20, Training Loss: 0.18885679479936182
+Epoch 9/20, Validation Loss: 0.24786032641134642
+Epoch 10/20: 100%|██████████| 367/367 [00:18<00:00, 20.22batch/s, loss=0.206]
+Epoch 10/20, Training Loss: 0.20854602410943615
+Epoch 10/20, Validation Loss: 0.24136378363926364
+Epoch 11/20: 100%|██████████| 367/367 [00:16<00:00, 22.32batch/s, loss=0.206]
+Epoch 11/20, Training Loss: 0.2083639802340254
+Epoch 11/20, Validation Loss: 0.25230053151007387
+Epoch 12/20: 100%|██████████| 367/367 [00:16<00:00, 22.13batch/s, loss=0.224]
+Epoch 12/20, Training Loss: 0.22507351649983484
+Epoch 12/20, Validation Loss: 0.25046035264583333
+Epoch 13/20: 100%|██████████| 367/367 [00:16<00:00, 22.17batch/s, loss=0.207]
+Epoch 13/20, Training Loss: 0.2078723316396757
+Epoch 13/20, Validation Loss: 0.2394593360913954
+Epoch 14/20: 100%|██████████| 367/367 [00:17<00:00, 21.16batch/s, loss=0.198]
+Epoch 14/20, Training Loss: 0.19963280730098631
+Epoch 14/20, Validation Loss: 0.2452670005021351
+Epoch 15/20: 100%|██████████| 367/367 [00:16<00:00, 22.15batch/s, loss=0.263]
+Epoch 15/20, Training Loss: 0.2647994398864929
+Epoch 15/20, Validation Loss: 0.30970764762738207
+Epoch 16/20: 100%|██████████| 367/367 [00:16<00:00, 22.03batch/s, loss=0.23] 
+Epoch 16/20, Training Loss: 0.23146192048094763
+Epoch 16/20, Validation Loss: 0.25234463643090016
+Epoch 17/20: 100%|██████████| 367/367 [00:16<00:00, 21.89batch/s, loss=0.249]
+Epoch 17/20, Training Loss: 0.24986572495122966
+Epoch 17/20, Validation Loss: 0.24651900625547946
+Epoch 18/20: 100%|██████████| 367/367 [00:16<00:00, 21.92batch/s, loss=0.235]
+Epoch 18/20, Training Loss: 0.23558650680454604
+Epoch 18/20, Validation Loss: 0.2388194727543171
+Epoch 19/20: 100%|██████████| 367/367 [00:16<00:00, 22.20batch/s, loss=0.245]
+Epoch 19/20, Training Loss: 0.2460923093272727
+Epoch 19/20, Validation Loss: 0.23833691857054715
+Epoch 20/20: 100%|██████████| 367/367 [00:16<00:00, 22.04batch/s, loss=0.229]
+Epoch 20/20, Training Loss: 0.231634141749114
+Epoch 20/20, Validation Loss: 1.0562869237673544
+==========Training phase 7==========
+Epoch 1/30: 100%|██████████| 367/367 [00:16<00:00, 22.33batch/s, loss=0.217]
+Epoch 1/30, Training Loss: 0.21981887040147663
+Epoch 1/30, Validation Loss: 0.24085324582970724
+Epoch 2/30: 100%|██████████| 367/367 [00:19<00:00, 18.78batch/s, loss=0.209]
+Epoch 2/30, Training Loss: 0.21178942498851885
+Epoch 2/30, Validation Loss: 0.2346342475197459
+Epoch 3/30: 100%|██████████| 367/367 [00:16<00:00, 21.59batch/s, loss=0.205]
+Epoch 3/30, Training Loss: 0.20766351743967426
+Epoch 3/30, Validation Loss: 0.23344671181331692
+Epoch 4/30: 100%|██████████| 367/367 [00:17<00:00, 21.01batch/s, loss=0.203]
+Epoch 4/30, Training Loss: 0.20495130891350952
+Epoch 4/30, Validation Loss: 0.2313601338298915
+Epoch 5/30: 100%|██████████| 367/367 [00:16<00:00, 22.80batch/s, loss=0.2]  
+Epoch 5/30, Training Loss: 0.2023921140112628
+Epoch 5/30, Validation Loss: 0.2269314629634202
+Epoch 6/30: 100%|██████████| 367/367 [00:16<00:00, 22.67batch/s, loss=0.198]
+Epoch 6/30, Training Loss: 0.2001718914967568
+Epoch 6/30, Validation Loss: 0.22512959526407686
+Epoch 7/30: 100%|██████████| 367/367 [00:16<00:00, 21.75batch/s, loss=0.197]
+Epoch 7/30, Training Loss: 0.19886887787136157
+Epoch 7/30, Validation Loss: 0.22349822893648968
+Epoch 8/30: 100%|██████████| 367/367 [00:17<00:00, 21.11batch/s, loss=0.195]
+Epoch 8/30, Training Loss: 0.19758605423583012
+Epoch 8/30, Validation Loss: 0.2213531640019575
+Epoch 9/30: 100%|██████████| 367/367 [00:16<00:00, 22.14batch/s, loss=0.194]
+Epoch 9/30, Training Loss: 0.1962259158722076
+Epoch 9/30, Validation Loss: 0.22129307187743583
+Epoch 10/30: 100%|██████████| 367/367 [00:16<00:00, 22.17batch/s, loss=0.193]
+Epoch 10/30, Training Loss: 0.1950023329370073
+Epoch 10/30, Validation Loss: 0.22009080483213364
+Epoch 11/30: 100%|██████████| 367/367 [00:16<00:00, 22.73batch/s, loss=0.192]
+Epoch 11/30, Training Loss: 0.19379289926160956
+Epoch 11/30, Validation Loss: 0.21912618637948128
+Epoch 12/30: 100%|██████████| 367/367 [00:17<00:00, 20.54batch/s, loss=0.19] 
+Epoch 12/30, Training Loss: 0.1919963179056781
+Epoch 12/30, Validation Loss: 0.2173963698734802
+Epoch 13/30: 100%|██████████| 367/367 [00:16<00:00, 21.99batch/s, loss=0.188]
+Epoch 13/30, Training Loss: 0.1902185194076897
+Epoch 13/30, Validation Loss: 0.21534687954999593
+Epoch 14/30: 100%|██████████| 367/367 [00:16<00:00, 21.93batch/s, loss=0.187]
+Epoch 14/30, Training Loss: 0.1885102682043283
+Epoch 14/30, Validation Loss: 0.2144333406215437
+Epoch 15/30: 100%|██████████| 367/367 [00:16<00:00, 22.17batch/s, loss=0.185]
+Epoch 15/30, Training Loss: 0.1873559635169524
+Epoch 15/30, Validation Loss: 0.213726325778932
+Epoch 16/30: 100%|██████████| 367/367 [00:16<00:00, 22.27batch/s, loss=0.184]
+Epoch 16/30, Training Loss: 0.18635516005816444
+Epoch 16/30, Validation Loss: 0.21167664597708868
+Epoch 17/30: 100%|██████████| 367/367 [00:17<00:00, 21.28batch/s, loss=0.183]
+Epoch 17/30, Training Loss: 0.1853532283687293
+Epoch 17/30, Validation Loss: 0.21085064131867273
+Epoch 18/30: 100%|██████████| 367/367 [00:17<00:00, 21.06batch/s, loss=0.182]
+Epoch 18/30, Training Loss: 0.18435966667757883
+Epoch 18/30, Validation Loss: 0.20967857450601501
+Epoch 19/30: 100%|██████████| 367/367 [00:17<00:00, 20.96batch/s, loss=0.182]
+Epoch 19/30, Training Loss: 0.18377181323271807
+Epoch 19/30, Validation Loss: 0.20935711708654733
+Epoch 20/30: 100%|██████████| 367/367 [00:16<00:00, 22.06batch/s, loss=0.181]
+Epoch 20/30, Training Loss: 0.18330273715215475
+Epoch 20/30, Validation Loss: 0.2086585525885344
+Epoch 21/30: 100%|██████████| 367/367 [00:16<00:00, 22.02batch/s, loss=0.181]
+Epoch 21/30, Training Loss: 0.1828656437173318
+Epoch 21/30, Validation Loss: 0.20741973720156026
+Epoch 22/30: 100%|██████████| 367/367 [00:16<00:00, 22.20batch/s, loss=0.18] 
+Epoch 22/30, Training Loss: 0.182306313383425
+Epoch 22/30, Validation Loss: 0.20615007993273485
+Epoch 23/30: 100%|██████████| 367/367 [00:16<00:00, 21.76batch/s, loss=0.179]
+Epoch 23/30, Training Loss: 0.1814349005537365
+Epoch 23/30, Validation Loss: 0.20524343941497514
+Epoch 24/30: 100%|██████████| 367/367 [00:16<00:00, 22.27batch/s, loss=0.178]
+Epoch 24/30, Training Loss: 0.18047279661023327
+Epoch 24/30, Validation Loss: 0.20339808845560461
+Epoch 25/30: 100%|██████████| 367/367 [00:16<00:00, 22.42batch/s, loss=0.178]
+Epoch 25/30, Training Loss: 0.17966839486875133
+Epoch 25/30, Validation Loss: 0.20230269537983034
+Epoch 26/30: 100%|██████████| 367/367 [00:16<00:00, 21.60batch/s, loss=0.177]
+Epoch 26/30, Training Loss: 0.17883801600008248
+Epoch 26/30, Validation Loss: 0.20150481275220064
+Epoch 27/30: 100%|██████████| 367/367 [00:16<00:00, 22.15batch/s, loss=0.176]
+Epoch 27/30, Training Loss: 0.17790028689002205
+Epoch 27/30, Validation Loss: 0.1999466881834841
+Epoch 28/30: 100%|██████████| 367/367 [00:16<00:00, 22.30batch/s, loss=0.175]
+Epoch 28/30, Training Loss: 0.17717522173962694
+Epoch 28/30, Validation Loss: 0.1987170077910342
+Epoch 29/30: 100%|██████████| 367/367 [00:16<00:00, 21.94batch/s, loss=0.174]
+Epoch 29/30, Training Loss: 0.17635698517991777
+Epoch 29/30, Validation Loss: 0.19815112750128835
+Epoch 30/30: 100%|██████████| 367/367 [00:16<00:00, 22.39batch/s, loss=0.173]
+Epoch 30/30, Training Loss: 0.17542924702520513
+Epoch 30/30, Validation Loss: 0.19725058604148052
